@@ -167,4 +167,6 @@
   ;; Remote control
   (info        [] :inline string-to-map)
   ;;(monitor     [] :inline))
+  ;; Pub/Sub
+  (publish [channel message] :bulk)
 )
